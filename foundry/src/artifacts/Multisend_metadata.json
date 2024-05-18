@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"foundry/src/Multisend.sol": "Multisend"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"foundry/src/Multisend.sol": {
+			"keccak256": "0x300af036a80f2ba4a4fcc00037d0fedd9053a7fbadadc361b7984daeea5fc8b8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f39f1c98b9a33aedf4c0d745cb480416bd37667e9699d954ca6145b9aba19c15",
+				"dweb:/ipfs/QmYTisikswgjMenLRJe4REWu57zGciJhdW25ZJHFkLB3mH"
+			]
+		}
+	},
+	"version": 1
+}
